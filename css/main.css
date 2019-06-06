@@ -260,14 +260,6 @@ aside {
   flex-flow: row wrap;
 }
 
-.mission .content-wrapper {
-
-}
-
-.mission .mission-content {
-
-}
-
 .contact-section {
   display: flex;
   justify-content: center;
@@ -275,12 +267,8 @@ aside {
   flex-flow: row wrap;
 }
 
-.contact-section .content-wrapper {
-
-}
-
-.contact-section .contact-content {
-
+.contact-content p {
+  margin: 0;
 }
 
 /* FAQ page styles */
@@ -297,10 +285,15 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
 }
 
-.faq .faq-content {
+.faq h2 {
+  margin-bottom: 40px;
+}
 
+.faq-content {
+  margin-bottom: 50px;
 }
 
  /* ==========================================================================
